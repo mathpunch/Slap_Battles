@@ -12,7 +12,7 @@ end
 repeat wait() until game.Players.LocalPlayer
 wait(0.25)
 _G.AutoExecuter = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mathpunch/Slap_Battles/main/Slap_Battles.lua"))()
     ]])
 else
 game:GetService("StarterGui"):SetCore("SendNotification",{Title = "Error",Text = "You cannot auto execute",Icon = "rbxassetid://7733658504",Duration = 5})

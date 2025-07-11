@@ -911,8 +911,8 @@ Tab:AddLabel("------------------------------[ Warning ]-------------------------
 Tab:AddParagraph("[ Admin ]","[ Banned Hackers which node is not good ]")
 Tab:AddParagraph("[ Record ]","[ When someone records it, you got a 90% ban ]")
 Tab:AddParagraph("[ Lucky ]","[ If you are lucky enough to survive the banned then you are lucky ]")
-Tab:AddParagraph("[ Tired ]","I'm Very Tired of Script and Script Update is slow. Please forgive me because I update slowly")
-Tab:AddParagraph("[ Script Giang ]","This script was created by Giang, but there is a problem when creating a feature but no one testing no one can help me see if it works | I'm really sorry that I couldn't do the feature and it all failed and didn't work | I hope everyone understands me")
+Tab:AddParagraph("[ Happy ]","I'm just Happy")
+Tab:AddParagraph("[ Script Message ]","Just Use it Please")
 Tab:AddLabel("------------------------------[ End ]------------------------------")
 
 Tab1:AddButton({

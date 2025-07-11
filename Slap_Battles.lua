@@ -24,7 +24,7 @@ game:GetService("GuiService"):ClearError()
 local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/mathpunch/Script/main/Orion_Library_PE_V2.lua")))()
 local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 if game.PlaceId == 6403373529 or game.PlaceId == 9015014224 then
-local Window = OrionLib:MakeWindow({IntroText = "Slap Battles 👏", IntroIcon = "rbxassetid://15315284749",Name = ("Giang Hub - Slap Battles 👏".." | ".. identifyexecutor()),IntroToggleIcon = "rbxassetid://7734091286", HidePremium = false, SaveConfig = false, IntroEnabled = true, ConfigFolder = "slap battles"})
+local Window = OrionLib:MakeWindow({IntroText = "Rex X Hub 1.0", IntroIcon = "rbxassetid://15315284749",Name = ("Rex X Hub ".." | ".. identifyexecutor()),IntroToggleIcon = "rbxassetid://7734091286", HidePremium = false, SaveConfig = false, IntroEnabled = true, ConfigFolder = "slap battles"})
 
 ---Bypass----
 
@@ -797,7 +797,7 @@ local Tab15 = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddParagraph("Zalo | Discord"," [ Zalo ]: Bạn muốn vào nhóm Zalo thì vào Credit nhé có link nhóm Zalo đó | [ Discord ]: If you want to join the Server hack slap battles group, go to the credits section ] | Good Luck")
+Tab:AddParagraph("Red X Hub"," [ Red X Hub ]: Made By Ozzy Also Known As mathpunch")
 local InfoServer = Tab:AddSection({Name = "Info Server"})
 CanYouFps = Tab:AddLabel("Your Fps [ "..math.floor(workspace:GetRealPhysicsFPS()).." ]")
 CanYouPing = Tab:AddLabel("Your Ping [ "..game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString().." ]")
